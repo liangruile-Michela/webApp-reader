@@ -1,58 +1,58 @@
 
-WebAppÔÄ¶ÁÆ÷Æª
+WebAppé˜…è¯»å™¨ç¯‡
 ==============
-ÓÉKoa¡¢Vue¡¢ZeptoµÈ¿ò¼Ü½áºÏHTML5¿ª·¢µÄÒ»¸ö°üº¬ÔÄ¶ÁÆ÷¹¦ÄÜµÄÊé³ÇApp¡£
-Õû¸ö¹ý³Ì·ÖÎª¼¸¸ö±È½Ï¸´ÔÓµÄÄ£¿é½øÐÐ¿ª·¢¡¢ÈçÔÄ¶ÁÆ÷¡¢Êé³ÇÊ×Ò³¡¢ËÑË÷Ä£¿é¡£
+ç”±Koaã€Vueã€Zeptoç­‰æ¡†æž¶ç»“åˆHTML5å¼€å‘çš„ä¸€ä¸ªåŒ…å«é˜…è¯»å™¨åŠŸèƒ½çš„ä¹¦åŸŽAppã€‚
+æ•´ä¸ªè¿‡ç¨‹åˆ†ä¸ºå‡ ä¸ªæ¯”è¾ƒå¤æ‚çš„æ¨¡å—è¿›è¡Œå¼€å‘ã€å¦‚é˜…è¯»å™¨ã€ä¹¦åŸŽé¦–é¡µã€æœç´¢æ¨¡å—ã€‚
 
-³£ÓÃÖªÊ¶µã
+å¸¸ç”¨çŸ¥è¯†ç‚¹
 ------------
 
-* ES6µÄPromise¶ÔÏó£ºÓÃÀ´´«µÝÒì²½²Ù×÷µÄÏûÏ¢£¬³äµ±Òì²½ºÍ»Øµ÷µÄÖÐ½é£¬Ãâ³ýÖØ¸´·±ËöµÄ»Øµ÷º¯ÊýÇ¶Ì×
-* HTML5µÄlocalStorage£ºÓÃÀ´×ö¿Í»§¶Ë´æ´¢£¬Èç´æ´¢ÓÃ»§Ëù¿´µÄÎÄÕÂµÄID»òÕßÔÄ¶ÁÏ°¹ß
-* ajax£º·¢ËÍÇëÇó»ñµÃÊý¾Ýºó½áºÏVue¶ÔÊý¾Ý×öäÖÈ¾
-* transformÊôÐÔ: Ò³Ãæ»¬¶¯
-* ´¥ÆÁÊÂ¼þ: touchstart¡¢touchmove¡¢touchend
+* ES6çš„Promiseå¯¹è±¡ï¼šç”¨æ¥ä¼ é€’å¼‚æ­¥æ“ä½œçš„æ¶ˆæ¯ï¼Œå……å½“å¼‚æ­¥å’Œå›žè°ƒçš„ä¸­ä»‹ï¼Œå…é™¤é‡å¤ç¹ççš„å›žè°ƒå‡½æ•°åµŒå¥—
+* HTML5çš„localStorageï¼šç”¨æ¥åšå®¢æˆ·ç«¯å­˜å‚¨ï¼Œå¦‚å­˜å‚¨ç”¨æˆ·æ‰€çœ‹çš„æ–‡ç« çš„IDæˆ–è€…é˜…è¯»ä¹ æƒ¯
+* ajaxï¼šå‘é€è¯·æ±‚èŽ·å¾—æ•°æ®åŽç»“åˆVueå¯¹æ•°æ®åšæ¸²æŸ“
+* transformå±žæ€§: é¡µé¢æ»‘åŠ¨
+* è§¦å±äº‹ä»¶: touchstartã€touchmoveã€touchend
 
-ÊÕÒæ
+æ”¶ç›Š
 ------------
 
-Í¨¹ýÕâ¸öÏîÄ¿£¬´ÓÒ»¸ö²úÆ·µÄ¼¼ÊõÑ¡ÐÍµ½Éè¼ÆÁ÷³Ìµ½´úÂëµÄ±àÐ´µ½²âÊÔÉÏÏß£¬ÈÃÎÒÃ÷°×ÁËÒ»¸ö²úÆ·ÖÆ×÷µÄÁ÷³Ì¡£Ð´ÔÄ¶ÁÆ÷ÕâÒ»Ä£¿éµÄ´úÂëÊ±£¬ÈÃÎÒÓÐÖÖ¸Ð¾õµ½ÂéÈ¸ËäÉÙµ«ÎåÔà¾ãÈ«µÄ¸Ð¾õ£¬´ÓÒ³Ãæ½á¹¹µ½Êý¾Ý½»»¥¶¼ÓÐËùÉæ¼°£¬ÈÃÎÒÃ÷°×Ç°ºó¶ËÖ®¼äµÄÊý¾ÝÊÇÔõÃ´½»»¥µÄ¡£ÎÒÈÏÊ¶µ½ÔÚÐ´´úÂëµÄÊ±ºò·ÖÄ£¿éÀ´¿ª·¢ÕæµÄºÜÖØÒª£¬Ò»¸ö×Ô¼º¾õµÃ¸´ÔÓµÄ¹¦ÄÜ£¬µ±ÈÏÕæÈ¥Ï¸»¯³ÉÒ»¸ö¸öÐ¡Ä£¿éÊ±£¬ÎÊÌâ×ÔÈ»Ó­ÈÐ¶ø½â£¬²¢ÇÒºóÆÚÎ¬»¤ÆðÀ´¸üÓÐÌõÀí¡£×îºó£¬²»µÃ²»³ÐÈÏÎÒÊÇ¸ö²ËÄñ£¬»¹ÐèÒªÅ¬Á¦ºÃºÃÈ¥Ì½Ë÷£¬Å¬Á¦×ßÏòÈ«Õ»¹¤³ÌÊ¦ÕâÌõÂ·¡£
+é€šè¿‡è¿™ä¸ªé¡¹ç›®ï¼Œä»Žä¸€ä¸ªäº§å“çš„æŠ€æœ¯é€‰åž‹åˆ°è®¾è®¡æµç¨‹åˆ°ä»£ç çš„ç¼–å†™åˆ°æµ‹è¯•ä¸Šçº¿ï¼Œè®©æˆ‘æ˜Žç™½äº†ä¸€ä¸ªäº§å“åˆ¶ä½œçš„æµç¨‹ã€‚å†™é˜…è¯»å™¨è¿™ä¸€æ¨¡å—çš„ä»£ç æ—¶ï¼Œè®©æˆ‘æœ‰ç§æ„Ÿè§‰åˆ°éº»é›€è™½å°‘ä½†äº”è„ä¿±å…¨çš„æ„Ÿè§‰ï¼Œä»Žé¡µé¢ç»“æž„åˆ°æ•°æ®äº¤äº’éƒ½æœ‰æ‰€æ¶‰åŠï¼Œè®©æˆ‘æ˜Žç™½å‰åŽç«¯ä¹‹é—´çš„æ•°æ®æ˜¯æ€Žä¹ˆäº¤äº’çš„ã€‚æˆ‘è®¤è¯†åˆ°åœ¨å†™ä»£ç çš„æ—¶å€™åˆ†æ¨¡å—æ¥å¼€å‘çœŸçš„å¾ˆé‡è¦ï¼Œä¸€ä¸ªè‡ªå·±è§‰å¾—å¤æ‚çš„åŠŸèƒ½ï¼Œå½“è®¤çœŸåŽ»ç»†åŒ–æˆä¸€ä¸ªä¸ªå°æ¨¡å—æ—¶ï¼Œé—®é¢˜è‡ªç„¶è¿Žåˆƒè€Œè§£ï¼Œå¹¶ä¸”åŽæœŸç»´æŠ¤èµ·æ¥æ›´æœ‰æ¡ç†ã€‚æœ€åŽï¼Œä¸å¾—ä¸æ‰¿è®¤æˆ‘æ˜¯ä¸ªèœé¸Ÿï¼Œè¿˜éœ€è¦åŠªåŠ›å¥½å¥½åŽ»æŽ¢ç´¢ï¼ŒåŠªåŠ›èµ°å‘å…¨æ ˆå·¥ç¨‹å¸ˆè¿™æ¡è·¯ã€‚
 
 
-Íê³É¹¦ÄÜ
+å®ŒæˆåŠŸèƒ½
 -------
-  - [x] Êé³ÇÊ×Ò³
-  - [x] Êé¼®ÏêÇéÒ³
-  - [x] ¸÷ÀàÆµµÀÒ³
-  - [x] ÔÄ¶ÁÆ÷
-  - [x] ËÑË÷¹¦ÄÜ
-  - [ ] ¸öÈËÖÐÐÄ
-  - [ ] ÆµµÀÇÐ»»
-  - [ ] ÐÔÄÜÓÅ»¯
+  - [x] ä¹¦åŸŽé¦–é¡µ
+  - [x] ä¹¦ç±è¯¦æƒ…é¡µ
+  - [x] å„ç±»é¢‘é“é¡µ
+  - [x] é˜…è¯»å™¨
+  - [x] æœç´¢åŠŸèƒ½
+  - [ ] ä¸ªäººä¸­å¿ƒ
+  - [ ] é¢‘é“åˆ‡æ¢
+  - [ ] æ€§èƒ½ä¼˜åŒ–
 
-Ä¿Â¼
+ç›®å½•
 -------
-  * mock: Ä£ÄâÊý¾Ý,³äµ±Êý¾Ý¿âµÄ×÷ÓÃ
-  * service: ¶ÁÈ¡Êý¾Ý,³äµ±Ç°ºó¶ËµÄÅ¦´ø¡£´ó²¿·ÖÊý¾ÝÊÇÍ¨¹ýmock¶ÁÈ¡£¬ÉÙ²¿·ÖÕæÊµÊý¾ÝÊÇÖ±½Ó·¢ÆðhttpÇëÇóÈ¥»ñÈ¡¡£
-  * static: ¾²Ì¬×ÊÔ´
-  * view: ejsÄ£°å
-  * app.js: ÏîÄ¿Èë¿Ú
-  * package.json: ÏîÄ¿ËùÐèÒÀÀµ
+  * mock: æ¨¡æ‹Ÿæ•°æ®,å……å½“æ•°æ®åº“çš„ä½œç”¨
+  * service: è¯»å–æ•°æ®,å……å½“å‰åŽç«¯çš„çº½å¸¦ã€‚å¤§éƒ¨åˆ†æ•°æ®æ˜¯é€šè¿‡mockè¯»å–ï¼Œå°‘éƒ¨åˆ†çœŸå®žæ•°æ®æ˜¯ç›´æŽ¥å‘èµ·httpè¯·æ±‚åŽ»èŽ·å–ã€‚
+  * static: é™æ€èµ„æº
+  * view: ejsæ¨¡æ¿
+  * app.js: é¡¹ç›®å…¥å£
+  * package.json: é¡¹ç›®æ‰€éœ€ä¾èµ–
 
-ÏîÄ¿ÒÀÀµ
+é¡¹ç›®ä¾èµ–
 -------
-  * koa: »ùÓÚNode.jsÆ½Ì¨µÄweb¿ª·¢¿ò¼Ü
-  * koa-route: ÓÃÀ´ÉèÖÃÂ·ÓÉ
-  * koa-static-server: Ìá¹©¾²Ì¬×ÊÔ´·þÎñ
-  * co-views: ÓÃÀ´ÉèÖÃÄ£°åÒýÇæ
-  * ejs: ejsÄ£°åÒýÇæ
+  * koa: åŸºäºŽNode.jså¹³å°çš„webå¼€å‘æ¡†æž¶
+  * koa-route: ç”¨æ¥è®¾ç½®è·¯ç”±
+  * koa-static-server: æä¾›é™æ€èµ„æºæœåŠ¡
+  * co-views: ç”¨æ¥è®¾ç½®æ¨¡æ¿å¼•æ“Ž
+  * ejs: ejsæ¨¡æ¿å¼•æ“Ž
   
 
-ÏîÄ¿Õ¹Ê¾
+é¡¹ç›®å±•ç¤º
 -------
   - Thank you to see [me](http://reader666.applinzi.com)! Look better on the phone!
  
-ÔËÐÐÏîÄ¿
+è¿è¡Œé¡¹ç›®
 -------
 ```
   $ git clone https://github.com/sinner77/webApp-reader.git
@@ -61,9 +61,6 @@ WebAppÔÄ¶ÁÆ÷Æª
   $ node app.js
 ```
 
-ÓÐÎÊÌâ·´À¡
+æœ‰é—®é¢˜åé¦ˆ
 ----
-ÔÚÊ¹ÓÃÖÐÓÐÈÎºÎÎÊÌâ£¬»¶Ó­·´À¡¸øÎÒ
-
-* ÓÊ¼þ: 525136628@qq.com
-* QQ: 525136628
+åœ¨ä½¿ç”¨ä¸­æœ‰ä»»ä½•é—®é¢˜ï¼Œæ¬¢è¿Žåé¦ˆç»™æˆ‘
